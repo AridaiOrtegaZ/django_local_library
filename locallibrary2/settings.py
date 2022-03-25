@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--!u^(4tw#^7o6in(-)_ef3$0_wq^u%a*9#7)68r+xmpu4lid(*
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-ALLOWED_HOSTS = ['<stormy-basin-38959>.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['stormy-basin-38959.herokuapp.com','127.0.0.1']
 
 
 # Application definition
